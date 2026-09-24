@@ -1,0 +1,94 @@
+body {
+    background-color: beige;
+}
+h1 {
+    color: #D67A9F;
+    background-color: #b73f74;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 64pt;
+    margin-bottom: 5px;
+}
+    
+h2 {
+    color: #554142;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24pt;
+    margin-top: 5px;
+}
+h3 {
+    color: #b73f74;
+    background-color: #f8b6ba;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24pt;
+    margin-bottom: 0px;
+    width: 30%;
+    margin-left: 60%;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5px;
+    margin: 10px;
+}
+h4 {
+    color: #b73f74;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 5px;
+    background-color:#f2d9a2;
+    margin-right: 40%;
+    margin-bottom: 0;
+}
+h5 {
+    font-family: monospace;
+    font-size: 12pt;
+    background-color:#f2d9a2;
+    text-align: center;
+    width: 10%;
+    align-content: center;
+    margin-bottom: 0;
+}
+.corn-blue-background {
+    background-color: #c6ecdb;
+    margin-right: 40%;
+
+}
+.spotify-widget {
+    margin-left: 60%;
+    margin-right: 10%;
+}
+
+.highlight-word {
+    color: #f8b6ba;
+}
+img {
+    margin: 10px
+}
+
+
+.wrapper {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.marquee {
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  animation: marquee 10s linear infinite;
+}
+
+.marquee p {
+  display: inline-block;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
